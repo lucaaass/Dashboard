@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ Dashboard
 
-## Getting Started
+Um painel (dashboard) construído com Next.js e Tailwind CSS — um projeto iniciado usando create‑next‑app.  
+Este repositório pretende ser a base de um dashboard moderno, responsivo e personalizável.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Começando
+
+### Pré-requisitos  
+Você vai precisar ter instalado em sua máquina:  
+- Node.js (versão compatível com o Next.js)  
+- npm ou yarn ou pnpm (gerenciador de pacotes à sua escolha)  
+
+### Instalação  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/lucaaass/Dashboard.git
+   cd Dashboard
+Instale as dependências:
+
+
+Copiar código
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+Execute em modo de desenvolvimento:
+
+
+Copiar código
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
-```
+Abra seu navegador em http://localhost:3000 para ver o dashboard em ação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧱 Estrutura do Projeto
+public/ — arquivos estáticos (imagens, ícones, etc)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+src/ — código fonte do aplicativo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+pages/ ou app/ (dependendo da versão) — rotas e páginas do Next.js
 
-## Learn More
+components/ — componentes reutilizáveis da interface
 
-To learn more about Next.js, take a look at the following resources:
+styles/ ou arquivos de configuração do Tailwind — temas, utilitários de CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Arquivos de configuração importantes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+next.config.ts — configuração do Next.js
 
-## Deploy on Vercel
+tailwind.config.js — configuração do Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+tsconfig.json — configuração do TypeScript
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+package.json / package-lock.json — dependências e scripts
+
+🎨 Tecnologias Usadas
+Next.js — para construção de aplicações React com suporte a SSR/SSG
+
+Tailwind CSS — para estilização utilitária e design rápido
+
+TypeScript — para tipagem estática e melhor manutenção
+
+[Adicionar outras tecnologias segundo uso, por exemplo: Chart.js, Redux, etc]
+
+📝 Funcionalidades
+Dashboard responsivo que se adapta a diferentes tamanhos de tela
+
+Componentes reutilizáveis para gráficos, tabelas, cards…
+
+Estrutura modular para facilitar extensões e customizações
+
